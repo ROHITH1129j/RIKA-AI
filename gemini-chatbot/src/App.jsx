@@ -3,12 +3,8 @@ import Sidebar from './components/Sidebar'
 import ChatWindow from './components/ChatWindow'
 import { useChat } from './hooks/useChat'
 
-// =============================================
-// 🔑 PASTE YOUR GEMINI API KEY BELOW
-// Get one free at: https://aistudio.google.com/apikey
-// =============================================
-const GEMINI_API_KEY = 'AIzaSyBYrZ4tGziLN8Axx5TLHA7JPA9Gc-9qSTo'
-// =============================================
+// API key is now loaded from .env file (VITE_GEMINI_API_KEY)
+const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY
 
 export default function App() {
   const {
