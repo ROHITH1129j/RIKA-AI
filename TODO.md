@@ -1,0 +1,1 @@
+# Task: Run the project&#10;&#10;## Steps:&#10;1. [x] Install dependencies (npm install - clean reinstall complete)&#10;2. [x] Fix \& run dev server (npx vite --force - running on http://localhost:5173/)&#10;3. [x] Verify running (http://localhost:5173)
